@@ -1,0 +1,28 @@
+
+1 - Os principais protocolos usados em comunicação na web são:
+HTTP (Hypertext Transfer Protocol): Responsável pela transferência de dados entre um cliente e um servidor. O cliente envia requisições HTTP para o servidor, que por sua vez envia respostas.
+
+HTTPS (Hypertext Transfer Protocol Secure): Uma versão segura do HTTP que utiliza criptografia para proteger a comunicação entre o cliente e o servidor, garantindo a confidencialidade e integridade dos dados.
+
+DNS (Domain Name System): Responsável por traduzir nomes de domínio em endereços IP. Isso permite que os usuários acessem sites utilizando nomes amigáveis em vez de números IP.
+
+2 - A arquitetura cliente x servidor ou "requisição x resposta" é um modelo onde o cliente envia requisições para um servidor, que processa essas requisições e envia respostas de volta ao cliente.
+
+3 - Em uma arquitetura web, o protocolo HTTP desempenha o papel de facilitar a comunicação entre o cliente e o servidor. Ele define as regras para a formatação e transmissão de mensagens entre o cliente e o servidor na web.
+
+4 - Para o HTTP, exemplos de métodos de requisição incluem:
+
+EX1 - GET: Solicita dados de um recurso específico do servidor. É utilizado para recuperar informações.
+EX2 - POST: Envia dados para o servidor para serem processados. É comumente usado para enviar formulários.
+EX3 - PUT: Atualiza um recurso específico no servidor com os dados fornecidos.
+
+Exemplos de status de respostas incluem:
+
+EX1 - 200 OK: Indica que a requisição foi bem-sucedida.
+EX2 - 204 OK no content.
+EX3 - 404 Not Found: Indica que o recurso solicitado não foi encontrado no servidor.
+EX4 -500 Internal Server Error: Indica um erro interno no servidor ao processar a requisição.
+
+5 - Embora na arquitetura "requisição x resposta" o cliente geralmente inicie o processo de comunicação, em algumas aplicações web como Gmail ou Instagram, 
+o servidor pode "empurrar" informações novas para o cliente usando tecnologias como WebSockets ou Server-Sent Events. Isso permite que o servidor envie atualizações em tempo real para o cliente, 
+como notificações de novos e-mails ou interações de usuários.
